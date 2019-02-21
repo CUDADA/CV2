@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>列表</title>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/list.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 顶部通栏 -->
+        <header>
+            <div class="topBar">
+                <a href="index.html" class="back"><span class="fa fa-chevron-left"></span></a>
+                <form action="javascript:;">
+                    <span></span>
+                    <!-- <input type="text" placeholder="查询笔记"> -->
+                    <input type="search" placeholder="查询笔记" name="" id="">
+                </form>
+            </div>
+        </header>
+        <main>
+            <div class="list-left">
+                <ul class="clearFix" id="oUL">
+                    <li class="now">HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>DOM</li>
+                    <li>BOM</li>
+                    <li>JQUERY</li>
+                    <li>AJAX</li>
+                    <li>HTML:5</li>
+                    <li>CSS:3</li>
+                    <li>Bootstarp</li>
+                    <li>ES6</li>
+                    <li>Flex</li>
+                    <li>npm</li>
+                    <li>Vue.js</li>
+                    <li>react.js</li>
+                    <li>node.js</li>
+                    <li>zepto</li>
+                    <li>swipe</li>
+                    <li>iscroll</li>
+                    <li>webpack</li>
+                </ul>
+            </div>
+            <div class="list-right">
+                <ul class="clearFix">
+                    <li id="html"><p>html笔记</p></li>
+                    <li><p>常用标签</p></li>
+                    <li><p>图片</p></li>
+                    <li><p>列表</p></li>
+                    <li><p>路径</p></li>
+                    <li id="css"><p>css笔记</p></li>
+                    <li><p>位置分类</p></li>
+                    <li><p>样式</p></li>
+                    <li><p>基本选择器</p></li>
+                    <li><p>复合选择器</p></li>
+                    <li><p>链接伪类选择器</p></li>
+                    <li><p>显示模式</p></li>
+                    <li><p>表格</p></li>
+                    <li><p>盒模型</p></li>
+                    <li><p>三大特性</p></li>
+                    <li><p>背景</p></li>
+                    <li><p>浮动</p></li>
+                    <li><p>定位</p></li>
+                    <li><p>精灵图</p></li>
+                    <li id="js"><p>js笔记</p></li>
+                    <li><p>变量，数据类型及转换</p></li>
+                    <li><p>操作符，流程控制</p></li>
+                    <li><p>数组</p></li>
+                    <li><p>函数及其作用域</p></li>
+                    <li><p>对象</p></li>
+                    <li><p>面向对象</p></li>
+                    <li><p>构造函数</p></li>
+                    <li><p>原型</p></li>
+                    <li><p>函数闭包</p></li>
+                    <li><p>函数递归</p></li>
+                    <li><p>正则表达式</p></li>
+                    <li id="dom"><p>DOM笔记</p></li>
+                    <li><p>获取页面元素</p></li>
+                    <li><p>事件，属性操作</p></li>
+                    <li><p>创建元素，节点操作</p></li>
+                    <li><p id="bom">BOM笔记</p></li>
+                    <li><p>window，location，history</p></li>
+                    <li><p>偏移量，滚动偏移</p></li>
+                    <li><p id="jquery">Jquery笔记</p></li>
+                    <li><p>选择器,筛选器$('selector')</p></li>
+                    <li><p>css操作</p></li>
+                    <li><p>class操作</p></li>
+                    <li><p>序号</p></li>
+                    <li><p>动画animate，stop(),finish()</p></li>
+                    <li><p>show()、hide()、toggle()</p></li>
+                    <li><p>slideDown()、slideUp()、slideToggle()</p></li>
+                    <li><p>fadeIn()、fadeOut()、fadeTo()、fadeToggle()</p></li>
+                    <li><p>节点操作</p></li>
+                    <li id="ajax"><p>ajax笔记</p></li>
+                    <li><p>原生Ajax</p></li>
+                    <li><p>$GET(),$POST()</p></li>
+                    <li><p>$AJAX()</p></li>
+                    <li><p>JSONP</p></li>
+                    <li><p>模板引擎</p></li>
+                    <li><p id="html5">html:5笔记</p></li>
+                    <li><p>新增标签</p></li>
+                    <li><p>video，audio</p></li>
+                    <li><p>web存储</p></li>
+                    <li id="css3"><p>css3笔记</p></li>
+                    <li><p>c3选择器</p></li>
+                    <li><p>2D，3D转换</p></li>
+                    <li><p>动画</p></li>
+                    <li><p>字体图标</p></li>
+                    <li><p>伸缩布局</p></li>
+                    <li><p id="vue">Vue.js笔记</p></li>
+                    <li><p>mvvm</p></li>
+                    <li><p>数据绑定</p></li>
+                    <li><p>指令</p></li>
+                    <li><p>组件</p></li>
+                </ul>
+            </div>
+        </main>
+        <!-- 页签 -->
+        <footer>
+            <div class="tabs">
+                <ul>
+                    <li><a href="index.html"><span class="fa fa-user"></span></a></li>
+                    <li><a href="javascrit:;"><span class="fa fa-list-alt colorBlue"></span></a></li>
+                </ul>
+
+            </div>
+        </footer>
+
+    </div>
+    <script src="js/iscroll.js"></script>
+    <script src="js/list.js"></script>
+</body>
+
+</html>
